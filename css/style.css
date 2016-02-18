@@ -1,0 +1,37 @@
+header{
+    
+    width: 100%;
+    margin:0 auto;
+    height: 285px;
+    background:blue;
+    bottom: position;
+    border-bottom-color: crimson;
+    border: solid;
+    background-repeat: no-repeat;
+    
+}
+
+header img{
+   
+    margin: 320px;
+    margin: 5px 340px 0px 220px;
+    width:50%;
+    height:450px;
+    border: solid;
+    border-bottom-color: crimson;
+    float:right;
+    
+    
+    
+}
+
+nav{
+    
+    margin: 1px 10px 1px 450px;
+    text-align: center;    
+    width:430px;
+    background-color:firebrick;
+    border-radius: 10px 10px 3px 1px;
+    padding: 1.5px
+     
+}
