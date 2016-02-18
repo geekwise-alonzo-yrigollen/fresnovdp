@@ -38,10 +38,9 @@ nav{
 
 /*SIDE LINK TAGS BEGIN HERE*/
 
-.one{
-    background-color: aqua;
+section > aside > div > h4{
+    background-color:yellow;
 }
-
 
 
 
