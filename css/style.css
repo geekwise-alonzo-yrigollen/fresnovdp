@@ -1,13 +1,14 @@
 header{
     
-    width: 100%;
+    width: 80%;
     margin:0 auto;
     height: 285px;
     background:blue;
     bottom: position;
-    border-bottom-color: crimson;
+    border-bottom-color: goldenrod;
     border: solid;
     background-repeat: no-repeat;
+    border-radius: 10px 20px 20px 40px
     
 }
 
@@ -20,27 +21,45 @@ header img{
     border: solid;
     border-bottom-color: crimson;
     float:right;
+   
+}
+
+logo > img{
     
-    
-    
+    margin: 220px;
+}
+
+logo1{
+    float:right;
+}
+
+body{
+    background-color:darkgray 
 }
 
 nav{
-    
+    border:none;
     margin: 1px 10px 1px 450px;
     text-align: center;    
     width:430px;
-    background-color:firebrick;
-    border-radius: 10px 10px 3px 1px;
-    padding: 2.5px
+    background-color:red;
+    border-radius: 110px 1110px 1150px 110px;
+    
+    
+        
      
 }
 
 /*SIDE LINK TAGS BEGIN HERE*/
 
 section > aside > div > h4{
-    background-color:yellow;
+    background-color:blue;
 }
+
+div > a{
+    background-color:red;
+}
+
 
 
 
