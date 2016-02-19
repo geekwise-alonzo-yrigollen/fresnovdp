@@ -1,0 +1,40 @@
+_header{
+    margin:30px 30px 30px 30px;
+    height: 250px;
+    border-radius: 11px;
+    background-color:darkgoldenrod;
+}
+
+body{
+    background-color:blue;
+}
+
+section{
+    padding:3%;
+    margin: 30px 30px 30px 30px;
+    color: white;
+    text-align:center;
+    background-color:black;
+    height:100%;
+    width: 90%;
+    background-color:navy;
+    border-radius:15px
+}
+
+img{
+    margin:none;
+    background-color:red;
+    border-radius:40px;
+    border:solid 1em white;
+    border-bottom-color: brown;
+    border-top-color:brown;
+
+}
+
+footer{
+       margin:30px 30px 30px 30px;
+       height: 260px;
+       background-color:darkgoldenrod;
+       border-radius: 10px;
+}
+
