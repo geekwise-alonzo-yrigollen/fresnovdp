@@ -45,10 +45,13 @@ nav{
     width:430px;
     background-color:red;
     border-radius: 110px 1110px 1150px 110px;
-    
-    
         
-     
+}
+
+span > img{
+    
+    height: 100%;
+    width:100%;
 }
 
 /*SIDE LINK TAGS BEGIN HERE*/
