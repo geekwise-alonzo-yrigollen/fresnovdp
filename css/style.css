@@ -64,6 +64,7 @@ section > nav{
     width:60%;
     text-align: center;
     float:left;
+    
 }
 
 
@@ -75,10 +76,13 @@ section > nav{
 }
 
 nav > ul{
+    height: 90px;
     margin:0 auto;
     padding:0;
     text-align:center;
     float:left;
+    background-color:firebrick;
+    
 }
 
 nav > ul > li{
@@ -87,7 +91,7 @@ nav > ul > li{
     display:inline;
     line-height:11.5rem;
     width:calc(100%/5);
-    height:11.5rem;
+    height:9.5rem;
     float:left
 }
 
