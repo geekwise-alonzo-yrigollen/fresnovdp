@@ -8,7 +8,7 @@ html,body{
 
 header{
     width:100%;
-    margin:0;
+    margin:3px;
     padding:0;
     font-size:1.8rem;
     
@@ -17,8 +17,8 @@ header{
 section{
     margin:0;
     padding:0;
-    height:11.5rem;
-    background-color:#515167;
+    height:13.3rem;
+    background-color:darkred;
 }
 
 
@@ -43,6 +43,10 @@ section > span > img{
     width:20%;
     text-align:center;
     float:left;
+}
+
+body{
+    background-color: aqua;
 }
 
 
