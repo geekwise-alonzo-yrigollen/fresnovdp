@@ -1,7 +1,7 @@
 html,body{    
     margin:0;
     padding:0;
-    font-size:62.5%;
+    font-size:33;
     box-sizing:border-box;
     width:100%;
 }
@@ -13,6 +13,29 @@ header{
     padding:0;
     font-size:1.8rem;
     background-color: navy;
+    overflow:hidden;
     
+}
+
+
+#vet_logo{
+    margin:0 auto;
+    float:right;
+    
+}
+
+
+main>img{
+    display:block;
+    margin-right: 0 auto;
+    float:left;
+}
+
+nav>ul>li>a{
+    margin:0, auto;
+    padding:3px;
+    background-color:firebrick;
+    display:inline-block;
+    float:left;
 }
 
