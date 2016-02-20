@@ -1,41 +1,15 @@
-html,body{    
-    margin:0;
-    padding:0;
-    font-size:33;
-    box-sizing:border-box;
-    width:100%;
+html,body{
+    margin: 0 auto;
+    background-color:burlywood;
+    box-sizing:inherit;
 }
+
 
 header{
-    height: 225px;
-    width:100%;
-    margin:3px;
-    padding:0;
-    font-size:1.8rem;
-    background-color: navy;
-    overflow:hidden;
-    
+    width:0 auto;
+    height:220px;
 }
 
-
-#vet_logo{
-    margin:0 auto;
-    float:right;
-    
-}
-
-
-main>img{
-    display:block;
-    margin-right: 0 auto;
-    float:left;
-}
-
-nav>ul>li>a{
-    margin:0, auto;
-    padding:3px;
+main{
     background-color:firebrick;
-    display:inline-block;
-    float:left;
 }
-
