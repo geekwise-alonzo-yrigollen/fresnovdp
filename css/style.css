@@ -1,15 +1,102 @@
 html,body{
     margin: 0 auto;
-    background-color:burlywood;
+    background-color:navy;
     box-sizing:inherit;
 }
 
 
 header{
-    width:0 auto;
-    height:220px;
+    margin:none;
+    display:inline-block; 
+    width:100%;
+    height:15rem;
+    padding:1rem;
+    background-color:blue;
+    
+}
+
+#logo1{
+    
+    width:calc(100%/3);
+    float:left;
+    text-align: center;
+    background-color:firebrick;
+    border:solid;
+    border-color:white;
+    border-radius:40rem 7rem 20rem 9rem;
+}
+
+span > h1{
+    margin:0 auto;
+    color:white;
+    width:calc(95%/3);
+    height:50%;
+    padding-top:90px;
+    float:left;
+    border-radius: 19px;
+    text-align: center;
+    background-color:navy;
+    border:solid;
+    border-color:red;
+} 
+span > h1:hover{
+    color:red
+}
+#logo2{
+    
+    width:calc(100%/3);
+    float:right;
+    text-align:center;
+    background-color:firebrick;
+    border:solid;
+    border-color:white;
+    border-radius:7rem 40rem 9rem 20rem;
 }
 
 main{
+    margin:0 auto;
+    height: 4rem;
+    width:100%;
+    text-align: center;
+    border:solid;
+    border-color:white;
     background-color:firebrick;
+}
+
+nav{
+    
+    display:inline-block;
+    background-color:red;
+    width:calc(100%/3);
+    height: 64px;
+    border-radius: 9px;
+    
+}
+nav:hover{
+    background-color:bisque;
+}
+
+
+
+nav > ul > li{
+    
+    margin:0 auto;
+    background-color:firebrick;
+    padding:5px;
+    display:inline-block;
+    border-radius:4pc;
+}
+ul:hover{
+    color:black;
+    background-color:navy;
+}
+
+li > a{
+    padding:inherit;
+    color:white;
+    
+}
+
+li > a:hover{
+    color:navy;
 }
