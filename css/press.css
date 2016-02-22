@@ -6,7 +6,6 @@ html,body{
     
 }
 
-
 header{
     margin:none;
     display:inline-block; 
@@ -91,6 +90,7 @@ nav > ul > li{
     display:inline-block;
     border-radius:4pc;
 }
+
 ul:hover{
     color:black;
     background-color:navy;
@@ -109,11 +109,31 @@ li > a:hover{
 }
 main{
     
+    
     text-align: center;
     width:100%;
     background-color:gray;
     
 }
+
+footer{
+    display:inline-block;
+    width:100%;
+    text-align: center;
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 section > div{
