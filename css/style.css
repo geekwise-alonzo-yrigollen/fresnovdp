@@ -1,7 +1,9 @@
 html,body{
     margin: 0 auto;
+    height:100%;
+    width:100%;
     background-color:navy;
-    box-sizing:inherit;
+    
 }
 
 
@@ -54,15 +56,18 @@ span > h1:hover{
 }
 
 
+/*
 main{
+
     margin:0 auto;
     height: 100%;
     width:100%;
     text-align: center;
     border:solid;
     border-color:white;
-    background-color:firebrick;
+    background-color:white;
 }
+*/
 
 
 nav{
@@ -102,38 +107,47 @@ li > a{
 li > a:hover{
     color:navy;
 }
-section > span > img{
+
+section > span >{
     
     margin:0 auto;
+    opacity:inherit;
     display:inline-block;
+    padding:20px;
     width:100%;
     height: 280px;
+    background-color:white;
+
     
 }
 
 #image1{
+    
+    height: 220px;
     display:inline-block;
     width:calc(100%/3);
+    background-repeat: no-repeat;
+    float:left;
 }
 #image2{
+    height:220px;
     display:inline-block;
     width:calc(100%/3);
+    background-repeat:no-repeat;
+    float:left;
 }
 #image3{
+    height:220px;
     display:inline-block;
     width:calc(100%/3);
+    background-repeat: no-repeat;
+    float:right;
 }
 
 
-
-
-
-
-
-
-
+/*
 footer{
     margin:0 auto;
     background-color: aqua;
     height: 120px;
-}
+}*/
