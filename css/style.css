@@ -55,28 +55,45 @@ span > h1:hover{
     border-radius:7rem 40rem 9rem 20rem;
 }
 
+/*HEADER ENDS HERE*/
 
-/*
+
+
+
+
+
+
+
+
+
+
 main{
 
-    margin:0 auto;
-    height: 100%;
+    margin:none;
+    display:inline-block; 
     width:100%;
-    text-align: center;
-    border:solid;
-    border-color:white;
-    background-color:white;
+    height:15rem;
+    padding:1rem;
+    background-color:blue;
 }
-*/
+
 
 
 nav{
     
+    margin:0 auto;
     display:inline-block;
     background-color:red;
-    width:calc(100%/3);
+    width:100%;
     height: 64px;
     border-radius: 9px;
+    
+}
+nav > ul{
+    width:0 auto;
+    padding:4px;
+    text-align: center;
+    transition:background 3s;
     
 }
 nav:hover{
@@ -101,12 +118,15 @@ ul:hover{
 li > a{
     padding:inherit;
     color:white;
+    text-decoration: none;
     
 }
 
 li > a:hover{
+    text-decoration: underline;
     color:navy;
 }
+
 
 section > span >{
     
