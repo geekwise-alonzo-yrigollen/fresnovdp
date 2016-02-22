@@ -28,24 +28,21 @@ header{
     border-radius:40rem 7rem 20rem 9rem;
 }
 
-span > h1{
-    margin:75px 0px 0px 0px;
-    color:white;
-    width:calc(95.5%/3);
-    height:30px;
-    padding-top:10px;
-    float:left;
-    border-radius: 19px;
-    text-align: center;
-    background-color:navy;
-    border:solid;
-    border-color:lightgray;
-} 
+ 
+section > div > h1{
+    
+background-color:blue;    
+    
+    
+}
+
+/*
 span > h1:hover{
     color:red;
     
         
 }
+*/
 
 #logo2{
     
@@ -133,7 +130,7 @@ footer{
 
 footer > section > p{
     color:red;
-    width:calc(75%/3);
+    width:calc(100%/3);
     margin:none;
     float:left;
     background-color:lightgrey;
