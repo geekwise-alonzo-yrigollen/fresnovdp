@@ -194,6 +194,10 @@ footer > section > p{
     display:inline-block;
     
 }
+footer > img{
+    float:left;
+    display:inline;
+}
 
 a{
     text-decoration: none;

@@ -81,8 +81,6 @@ nav:hover{
     background-color:bisque;
 }
 
-
-
 nav > ul > li{
     
     margin:0 auto;
@@ -108,9 +106,6 @@ li > a:hover{
     color:navy;
 }
 
-
-
-
 main{
 
     margin:12px;
@@ -119,7 +114,9 @@ main{
     height:80%;
     padding:1rem;
     background-color:blue;
+    
 }
+
 p{
     width:50%;
     display:inline;
@@ -128,7 +125,9 @@ p{
     float:right;
         
 }
+
 p:hover{
+    
     color:black;
     background-color:lightblue;
     transition: color 1s;
@@ -136,10 +135,12 @@ p:hover{
     transition: linear 1s;
 }
 span > p{
+    
     background-color:blue;
     display:block;
     margin:0 auto;
     color:white;
+    
 }
 
 
@@ -152,43 +153,48 @@ span > p{
     float:left;
     text-align:center;
 }
+
 #image2{
     
     height:400px;
     display:inline-block;
     width:calc(100%/2);
     float:left;
+    
 }
 
 
 h2{
+    
     display:block;
     margin:0 auto;
     color:gold;
     
 }
     
-
-
 footer{
 
-    margin:30px;
+    margin-top:1030px;
     width:100%;
     height:10%;
+    display:inline-block;
     padding:25px;
     background-color:gray;
     border:solid 4px;
     border-color:lightblue;
     text-align: center;
+    
 }
 
 footer > section > p{
+    
     color:red;
     width:calc(75%/3);
     margin:none;
     float:left;
     background-color:lightgrey;
     border-radius: 10px
+        
 }
 
 .button{
