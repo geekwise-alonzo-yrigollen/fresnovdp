@@ -108,12 +108,14 @@ li > a:hover{
     color:navy;
 }
 main{
+    
+    text-align: center;
     width:100%;
-    overflow: hidden;
-    background-color:green;
+    background-color:gray;
     
 }
 
+/*
 section > div{
     margin:0 auto;
     
@@ -173,4 +175,4 @@ span > a{
     float:left;
     display:inline-block;
          
-}
+}*/
