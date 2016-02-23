@@ -18,8 +18,9 @@ header{
 }
 header:hover{
     background-color:black;
-    transition: background 2s;
     color:white;
+    transition: background 2s;
+
 }
 
 #logo1{
@@ -34,6 +35,7 @@ header:hover{
 }
 #logo1:hover{
     background-color:white;
+    border-color:red;
     transition: background 2s;
 }
 
@@ -52,8 +54,10 @@ span > h1{
 } 
 span > h1:hover{
     color:red;
-    
-        
+    background-color:black;
+    border-color:black;
+    transition: background 1s;
+      
 }
 
 #logo2{
@@ -69,6 +73,7 @@ span > h1:hover{
 #logo2:hover{
     
     background-color:white;
+    border-color:red;
     transition: background 2s;
     
 }
