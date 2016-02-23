@@ -15,6 +15,7 @@ header{
     background-color:gray;
     
 }
+
 header:hover{
     background-color:black;
     color:white;
@@ -32,6 +33,7 @@ header:hover{
     border-color:lightgray;
     border-radius:40rem 7rem 20rem 9rem;
 }
+
 #logo1:hover{
     background-color:white;
     border-color:red;
@@ -74,7 +76,11 @@ span > h1:hover{
     background-color:white;
     border-color:red;
     transition: background 2s;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> refs/remotes/origin/master
 }
 
 /*HEADER ENDS HERE*/
