@@ -2,10 +2,9 @@ html,body{
     margin:3px;
     height:100%;
     width:100%;
-    background-color:red;
+    background-color:goldenrod;
     
 }
-
 
 header{
     margin:none;
@@ -17,6 +16,11 @@ header{
     
 }
 
+header:hover{
+    background-color:black;
+    transition: background 2s;
+}
+
 #logo1{
     
     width:calc(100%/3);
@@ -26,6 +30,12 @@ header{
     border:solid;
     border-color:lightgray;
     border-radius:40rem 7rem 20rem 9rem;
+}
+
+#logo1:hover{
+    background-color:white;
+    border-color:red;
+    transition: background 2s;
 }
 
 span > h1{
@@ -48,6 +58,7 @@ span > h1:hover{
     transition: background 1s;
       
 }
+
 #logo2{
     
     width:calc(100%/3);
@@ -57,6 +68,13 @@ span > h1:hover{
     border:solid;
     border-color:lightgray;
     border-radius:7rem 40rem 9rem 20rem;
+}
+
+#logo2:hover{
+    background-color:white;
+    border-color:red;
+    transition: background 2s;
+
 }
 
 /*HEADER ENDS HERE*/
