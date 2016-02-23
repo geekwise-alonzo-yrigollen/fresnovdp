@@ -6,7 +6,6 @@ html,body{
     
 }
 
-
 header{
     margin:none;
     display:inline-block; 
@@ -16,10 +15,10 @@ header{
     background-color:gray;
     
 }
+
 header:hover{
     background-color:black;
     transition: background 2s;
-    color:white;
 }
 
 #logo1{
@@ -32,8 +31,10 @@ header:hover{
     border-color:lightgray;
     border-radius:40rem 7rem 20rem 9rem;
 }
+
 #logo1:hover{
     background-color:white;
+    border-color:red;
     transition: background 2s;
 }
 
@@ -52,8 +53,10 @@ span > h1{
 } 
 span > h1:hover{
     color:red;
-    
-        
+    background-color:black;
+    border-color:black;
+    transition: background 1s;
+      
 }
 
 #logo2{
@@ -66,11 +69,12 @@ span > h1:hover{
     border-color:lightgray;
     border-radius:7rem 40rem 9rem 20rem;
 }
+
 #logo2:hover{
-    
     background-color:white;
+    border-color:red;
     transition: background 2s;
-    
+
 }
 
 /*HEADER ENDS HERE*/
